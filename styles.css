@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+p {
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2.5vh;
+    }
+input, textarea {
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2.5vh;
+}
+ul li { 
+   font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2.5vh;
+ }
+
+h1 {
+    
+    font-family: "Winky Rough", sans-serif;
+    font-size: 7vh;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.section{
+    
+    float:right;
+    margin: 0 2%;
+    padding-top: 0%;
+    padding-bottom:3%;
+    max-width: 54%;
+    min-width:34%;
+}
+.aside{
+    float:left;
+    Margin-top:4%;
+    margin-left: 3%;
+    margin-right:3%;
+    padding-bottom:3%;
+    max-width: 35%;
+    min-width:25%;
+   
+}
+@media screen and (max-width: 900px) {
+    .section{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;} 
+  .aside {float: none; max-width:80%;align-content: center;margin:auto; padding:auto;}
+}
+img{
+    width: 82%;
+    height:100%;
+    object-fit: contain;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+    padding:2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 40px;
+    border-style: none;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2.5vh;
+    background-color: cadetblue;
+    margin-top: 4%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+     color:white;
+}
+.button:hover{
+    transform: scale(1.1);
+                background-color: #975b3e;
+                transition: all 0.4s;
+}
+    
+
+h2 { 
+font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 { 
+font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+header {
+    margin:2%;
+    
+}
+.logo{
+    display: grid;
+    place-items: center;
+    
+}
+ul.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: cadetblue;
+}
+ul.nav li {
+    
+    float: right;}
+
+ul.nav li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 64px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {background-color: #606094}
+.active {background-color: #ab6a1e}
+
+@media screen and (max-width: 600px) {
+  ul.nav li.right, 
+  ul.nav li {float: none;}
+}
+footer{
+    
+    width:100%;
+    clear: both;
+    margin-top: 5%;
+                padding-bottom: 2%;
+                padding-top: 2%;
+                text-align-last: center;
+                background-color: #08313f;
+                color: white;
+               font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+                font-size: small
+            }
+@media screen and (max-width: 600px) {
+    footer{padding-bottom:5%; Padding-top:5%;}
+  
+}
+
+.form{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                border: 1px transparent;
+                max-width: 900px;
+                border-radius: 2em;
+                margin-top: 100px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom: auto;
+                
+                background-color: cadetblue;
+            }
+@media screen and (max-width: 950px) {
+    .form{
+        margin-bottom: 15%;
+        margin-left:3%;
+        margin-right:3%;
+    }
+}
+            input, textarea{
+                font-size:large;
+                margin: 1px 40px;
+                border-radius: 10px;
+                border-style: hidden;
+                padding: 1%;
+            }
+            .buttonform{
+                margin-bottom: 5%;
+    padding:2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 40px;
+    border-style: none;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2.5vh;
+    background-color: #ddaa92;
+    margin-top: 4%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    color:white;
+}
+.buttonform:hover{
+    transform: scale(1.1);
+                background-color: #975b3e;
+                transition: all 0.4s;
+}
