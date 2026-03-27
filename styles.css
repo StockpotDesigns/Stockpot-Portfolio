@@ -75,7 +75,7 @@ img{
   font-weight: 350;
   font-style: normal;
     font-size: 2.5vh;
-    background-color: cadetblue;
+    background-color: #0E3434;
     margin-top: 4%;
     display: block;
   margin-left: auto;
@@ -84,7 +84,7 @@ img{
 }
 .button:hover{
     transform: scale(1.1);
-                background-color: #975b3e;
+                background-color: #7F4539;
                 transition: all 0.4s;
 }
     
@@ -116,7 +116,7 @@ ul.nav {
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color: cadetblue;
+    background-color: #0E3434;
 }
 ul.nav li {
     
@@ -124,14 +124,14 @@ ul.nav li {
 
 ul.nav li a {
     display: block;
-    color: aliceblue;
+    color: white;
     text-align: center;
     padding: 14px 64px;
     text-decoration: none;
 }
 
-ul.nav li a:hover:not(.active) {background-color: #606094}
-.active {background-color: #ab6a1e}
+ul.nav li a:hover:not(.active) {background-color: #185D5D}
+.active {background-color: #7F4539}
 
 @media screen and (max-width: 600px) {
   ul.nav li.right, 
@@ -145,7 +145,7 @@ footer{
                 padding-bottom: 2%;
                 padding-top: 2%;
                 text-align-last: center;
-                background-color: #08313f;
+                background-color: #0E3434;
                 color: white;
                font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
