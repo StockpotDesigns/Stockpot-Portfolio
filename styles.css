@@ -170,7 +170,7 @@ footer{
                 margin-right:auto;
                 margin-bottom: auto;
                 
-                background-color: cadetblue;
+                background-color: #185D5D;
             }
 @media screen and (max-width: 950px) {
     .form{
@@ -178,6 +178,16 @@ footer{
         margin-left:3%;
         margin-right:3%;
     }
+}
+label{
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+    
 }
             input, textarea{
                 font-size:large;
@@ -198,15 +208,15 @@ footer{
   font-weight: 350;
   font-style: normal;
     font-size: 2.5vh;
-    background-color: #ddaa92;
+    background-color: white;
     margin-top: 4%;
     display: block;
   margin-left: auto;
   margin-right: auto;
-    color:white;
+    color:#0E3434;
 }
 .buttonform:hover{
     transform: scale(1.1);
-                background-color: #975b3e;
+                background-color: #efbdb1;
                 transition: all 0.4s;
 }
