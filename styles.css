@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
 }
 p {
     font-family: "Nunito", sans-serif;
@@ -49,11 +49,19 @@ h1 {
     margin-right:3%;
     padding-bottom:3%;
     max-width: 35%;
-    min-width:25%;
-   
+    min-width:25%; 
+}
+.aboutsection{
+    float:left;
+    margin: 0 2%;
+    padding-top: 0%;
+    padding-bottom:3%;
+    max-width: 54%;
+    min-width:34%;
 }
 @media screen and (max-width: 900px) {
-    .section{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;} 
+    .section{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;}
+    .aboutsection{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;}
   .aside {float: none; max-width:80%;align-content: center;margin:auto; padding:auto;}
 }
 img{
@@ -94,6 +102,9 @@ font-family: "Winky Rough", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+    
+    font-size: 4vh;  
+    color: #215A5F;
 }
 
 h3 { 
@@ -103,8 +114,12 @@ font-family: "Winky Rough", sans-serif;
   font-style: normal;
 }
 header {
-    margin:2%;
-    
+    width:150%;
+    display: block;
+    height: auto;
+}
+@media screen and (max-width: 900px){
+    header{width:300%;}
 }
 .logo{
     display: grid;
@@ -142,8 +157,8 @@ footer{
     width:100%;
     clear: both;
     margin-top: 5%;
-                padding-bottom: 2%;
-                padding-top: 2%;
+                padding-bottom: 3%;
+                padding-top: 3%;
                 text-align-last: center;
                 background-color: #0E3434;
                 color: white;
@@ -154,11 +169,11 @@ footer{
                 font-size: small
             }
 @media screen and (max-width: 600px) {
-    footer{padding-bottom:5%; Padding-top:5%;}
+
   
 }
 
-.form{
+form{
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
@@ -173,7 +188,7 @@ footer{
                 background-color: #185D5D;
             }
 @media screen and (max-width: 950px) {
-    .form{
+    form{
         margin-bottom: 15%;
         margin-left:3%;
         margin-right:3%;
@@ -219,4 +234,50 @@ label{
     transform: scale(1.1);
                 background-color: #efbdb1;
                 transition: all 0.4s;
+}
+
+table{
+    clear: left;
+    margin-top: 8vh;
+    margin-bottom:8vh;
+    margin-left: auto;
+    margin-right:auto;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+tr:nth-child(even) {background-color: #fff3f0;}
+th{
+   width:225px;
+    background-color: #7F4539;
+    color: white;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 2vh;
+}
+td{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+    font-size: 1.8vh;  
+}
+th,td{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:5px;
+    padding-left:5px;
+}
+caption{ 
+font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    text-align:center;
+    font-size: 4vh;  
+    color: #215A5F;
+    padding-bottom: 2vh;
 }
