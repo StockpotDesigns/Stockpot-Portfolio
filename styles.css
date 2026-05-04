@@ -175,8 +175,8 @@ header {
     display: block;
     height: auto;
 }
-@media screen and (max-width: 480px){
-    header{width:300%;overflow:hidden;}
+@media screen and (max-width: 600px){
+    header{width:500%;overflow:hidden;}
   
 }
 .logo{
