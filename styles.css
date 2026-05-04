@@ -78,9 +78,9 @@ h1 {
 
 
 @media screen and (max-width: 1100px) {
-    .section{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;}
-    .aboutsection{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;}
-  .aside {float: none; max-width:80%;align-content: center;margin:auto; padding:auto;}   
+    .section{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;overflow:hidden;}
+    .aboutsection{float:none;max-width:80%;align-content: center;margin:auto; padding:auto;overflow:hidden;}
+  .aside {float: none; max-width:80%;align-content: center;margin:auto; padding:auto;overflow:hidden;}   
 }
 
 .Portimgleft{
@@ -113,10 +113,10 @@ h1 {
     margin-left: 5%;
 }
 @media screen and (max-width: 1000px) {
-    .Portimgleft{float:none; margin:auto;width:90%;}
-    .Portimgright{float:none;margin:auto;width:90%;}
-    .portinforight{float:none;margin:auto;width:80%;margin-bottom: 20%}
-    .portinfoleft{float:none;margin:auto;width:80%;margin-bottom: 20%}
+    .Portimgleft{float:none; margin:auto;width:90%;overflow:hidden;}
+    .Portimgright{float:none;margin:auto;width:90%;overflow:hidden;}
+    .portinforight{float:none;margin:auto;width:80%;margin-bottom: 20%;overflow:hidden;}
+    .portinfoleft{float:none;margin:auto;width:80%;margin-bottom: 20%;overflow:hidden;}
     
 }
 
@@ -175,8 +175,9 @@ header {
     display: block;
     height: auto;
 }
-@media screen and (max-width: 900px){
-    header{width:300%;}
+@media screen and (max-width: 480px){
+    header{width:300%;overflow:hidden;}
+  
 }
 .logo{
     display: grid;
@@ -232,8 +233,8 @@ ul.nav li a:hover, .dropdown:hover .dropbtn:not(.active) {background-color: #185
 
 @media screen and (max-width: 600px) {
   ul.nav li.right, 
-  ul.nav li, .dropdown {float: none;}
-    .dropdown-content {width: 100%;}
+  ul.nav li, .dropdown {float: none;overflow:hidden;}
+    .dropdown-content {width: 100%;overflow:hidden;}
 }
 footer{
     
@@ -405,8 +406,9 @@ margin-bottom: 15%;
   .logogrid {
     width: 50%;
     margin: 6px 0;
+    overflow:hidden;
   }
-.portfolio{padding: 2% 2% 2% 2%; margin-bottom: 15%; margin-top: 10%; max-width:90%}
+.portfolio{padding: 2% 2% 2% 2%; margin-bottom: 15%; margin-top: 10%; max-width:90%;overflow:hidden;}
 }
 
 @media only screen and (max-width: 700px) {
